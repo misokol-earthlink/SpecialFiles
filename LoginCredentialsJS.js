@@ -95,7 +95,7 @@ function detectAdminStatus() {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  testAdmin();
+  //testAdmin();
   userName = detectLoginStatus();
   if (userName != "Guest" ) {
    sortedUsers = expandConcatenatedNames(fulldata) ;
