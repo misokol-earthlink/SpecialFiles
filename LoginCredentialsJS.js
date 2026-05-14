@@ -4,6 +4,7 @@
 var userName = "Guest";
 var  adminMode = false;
 const testMode = false;
+var isLoggedIn = false;
 
 
 function detectLoginStatus() {
